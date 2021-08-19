@@ -172,18 +172,6 @@ let resumeData = {
       "skillname": "Android",
       "percent": "40",
       "level": "moderate"
-    },
-    {
-      "id": 14,
-      "skillname": "Continous Integration",
-      "percent": "60",
-      "level": "intermediate"
-    }
-    {
-      "id": 15,
-      "skillname": "Continous Deployment",
-      "percent": "90",
-      "level": "moderate"
     }
   ],
   "portfolioDescription": "These are some of the jobs building my Portfolio Strong.",
