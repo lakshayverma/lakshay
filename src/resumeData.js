@@ -116,23 +116,41 @@ let resumeData = {
     {
       "id": 5,
       "skillname": "JavaScript",
-      "percent": "60",
+      "percent": "80",
       "level": "intermediate"
     },
     {
       "id": 6,
+      "skillname": "React",
+      "percent": "80",
+      "level": "intermediate"
+    },
+    {
+      "id": 7,
+      "skillname": "Angular",
+      "percent": "55",
+      "level": "intermediate"
+    },
+    {
+      "id": 8,
+      "skillname": "Jest and RTL",
+      "percent": "70",
+      "level": "intermediate"
+    },    
+    {
+      "id": 9,
       "skillname": "Java",
       "percent": "60",
       "level": "moderate"
     },
     {
-      "id": 7,
+      "id": 10,
       "skillname": "GIT",
       "percent": "80",
       "level": "moderate"
     },
     {
-      "id": 8,
+      "id": 11,
       "skillname": "Server Management",
       "percent": "60",
       "level": "moderate"
@@ -144,24 +162,66 @@ let resumeData = {
       "level": "moderate"
     },
     {
-      "id": 10,
+      "id": 12,
       "skillname": "Adobe Photoshop",
       "percent": "55",
       "level": "moderate"
     },
     {
-      "id": 11,
+      "id": 13,
       "skillname": "Android",
       "percent": "40",
+      "level": "moderate"
+    },
+    {
+      "id": 14,
+      "skillname": "Continous Integration",
+      "percent": "60",
+      "level": "intermediate"
+    }
+    {
+      "id": 15,
+      "skillname": "Continous Deployment",
+      "percent": "90",
       "level": "moderate"
     }
   ],
   "portfolioDescription": "These are some of the jobs building my Portfolio Strong.",
   "portfolio": [
     {
+      "id": 9,
+      "name": "Transport Management System",
+      "description": "A complete solution to manage the transport and load journey from warehousing to quotes and then actual delivery with tracking of the load.",
+      "imgurl": "../images/lms.png",
+      "stats": [
+        "Java",
+        "ReactJS",
+        "Jest",
+        "Jenkins",
+        "Enzyme and RTL",
+        "i18n",
+        "SCSS"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "InfusionSoft Content Management",
+      "description": "A progressive web application to manage learning content from a single and unified admin panel that links with a popular and leading Customer Relation Manager. The products are allowed to be accessed only by customer roles assigned to them in the CRM which allows targetted mails to allow controlled content access.",
+      "imgurl": "../images/lms.png",
+      "stats": [
+        "Node",
+        "Mongo",
+        "Angluar",
+        "Ionic",
+        "GitLab CI",
+        "Jest",
+        "SCSS"
+      ]
+    },
+    {
       "id": 6,
-      "name": "Heart Monitoriing and Reporting",
-      "description": "A Laravel application to allow Cardiac Centers to generate reports and keep track of a patient's condition through out the years.",
+      "name": "Heart Monitoring and Reporting",
+      "description": "A Laravel based application with ReactJS as its frontend to allow Cardiac Centers to generate reports where all 64 heart zones are covered to get predictive analysis done and keep track of a patient's condition through out the years.",
       "imgurl": "../images/lms.png",
       "stats": [
         "PHP",
@@ -173,13 +233,15 @@ let resumeData = {
     },
     {
       "id": 7,
-      "name": "Headless Wordpress",
+      "name": "Music Licensing System",
       "description": "Wordpress as an CMS at its best, using NextJS as the frontend to allow better SEO for entire site with dynamic sitemaps. Also keeping most of the components alive during page loads.",
       "imgurl": "../images/lms.png",
       "stats": [
         "PHP",
         "Wordpress",
         "NextJS",
+        "Github Actions",
+        "Amazon Web Services",        
         "ReactJS",
         "Analytics",
         "SCSS"
@@ -193,6 +255,7 @@ let resumeData = {
       "stats": [
         "PHP",
         "Laravel",
+        "Route53",
         "Webpack",
         "SCSS"
       ]
@@ -203,7 +266,7 @@ let resumeData = {
       "description": "Mobile application based on a concept that amazes.",
       "imgurl": "https://blog.lakshay.dev/wp-content/uploads/2015/11/amaze-your-self-logo.png",
       "stats": [
-        "Photoshop",
+        "Adobe Photoshop",
         "Android",
         "Unity 3d",
         "Java"
@@ -244,6 +307,11 @@ let resumeData = {
   ],
   "testimonials": [
     {
+      "id": 4,
+      "name": "Hollywood Cues",
+      "description": 'Additionally, we feel that Lakshay is open-minded and agile in his approach. Not only does he brings his own ideas and experience to the table, but he listens and is able to change direction if asked to do so. He also "gets things done" when it comes to managing the rest of the Walkwel team.'
+    },
+    {
       "id": 1,
       "name": "Pawanjot Singh",
       "description": "Loved the application, Baani Nitnem. Helps me keep track of my daily prayers routine"
@@ -266,7 +334,10 @@ let resumeData = {
       "name": "Music",
       "description": "Listening to the mesmerizing notes keeps you going on and on through the journey.",
       "stats": [
-        "Soothing"
+        "Soothing",
+        "Gentle",
+        "Empowering",
+        "Astounding"
       ]
     },
     {
@@ -285,6 +356,9 @@ let resumeData = {
       "name": "Socializing",
       "description": "Keeping in touch with others is a good start for a healthy life.",
       "stats": [
+        "Jokes",
+        "Guidance",
+        "Support"
       ]
     },
     {
