@@ -1,4 +1,28 @@
 import React, { Component } from "react";
+
+const Achievements = ({achievements: achievements}) => {
+  return (
+    Array.isArray(achievements) ?
+        (
+            <>
+              <p className="mb-0">
+                <small className="text-muted">Area of Focus: </small>
+              </p>
+              {
+                achievements.map((achievement) => (
+                    <p className="mb-0">{achievement}</p>
+                ))
+              }
+            </>
+        )
+        : (
+            <p>
+              <small className="text-muted">Area of Focus: </small>{achievements}
+            </p>
+        )
+  )
+}
+
 export default class Resume extends Component {
   render() {
     let resumeData = this.props.resumeData;
@@ -25,7 +49,7 @@ export default class Resume extends Component {
                           {item.MonthOfPassing} {item.YearOfPassing}
                         </em>
                       </p>
-                      <p><small className="text-muted">Area of Focus: </small>{item.Achievements}</p>
+                      <Achievements achievements={item.Achievements} />
                     </div>
                   </div>
                 );
@@ -53,7 +77,7 @@ export default class Resume extends Component {
                           {item.MonthOfLeaving} {item.YearOfLeaving}
                         </em>
                       </p>
-                      <p>{item.Achievements}</p>
+                      <Achievements achievements={item.Achievements} />
                     </div>
                   </div>
                 );
