@@ -47,7 +47,7 @@ let resumeData = {
             "UniversityName": "I.G.N.O.U.",
             "specialization": "Masters in Computer Application",
             "MonthOfPassing": "Dec",
-            "YearOfPassing": "\'17",
+            "YearOfPassing": "'17",
             "Achievements": [
                 "Optimal system design with Web Technologies",
                 "Interactive Games development with Unity 3d"
@@ -58,7 +58,7 @@ let resumeData = {
             "UniversityName": "G.N.D.U.",
             "specialization": "Bachelors in Computer Application",
             "MonthOfPassing": "Jul",
-            "YearOfPassing": "\'14",
+            "YearOfPassing": "'14",
             "Achievements": [
                 "Application Development with Java EE at its core",
                 "UI design and development using Web Technologies HTML, CSS, jQuery",
