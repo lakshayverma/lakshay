@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-const Achievements = ({achievements: achievements}) => {
+const achievements = ({achievements: achievements}) => {
   return (
     Array.isArray(achievements) ?
         (
@@ -41,15 +41,15 @@ export default class Resume extends Component {
                 return (
                   <div className="row item" key={item.id}>
                     <div className="twelve columns">
-                      <h3>{item.UniversityName}</h3>
+                      <h3>{item.universityName}</h3>
                       <p className="info">
                         {item.specialization}
                         <span>&bull;</span>{" "}
                         <em className="date">
-                          {item.MonthOfPassing} {item.YearOfPassing}
+                          {item.monthOfPassing} {item.yearOfPassing}
                         </em>
                       </p>
-                      <Achievements achievements={item.Achievements} />
+                      <achievements achievements={item.achievements} />
                     </div>
                   </div>
                 );
@@ -69,15 +69,15 @@ export default class Resume extends Component {
                 return (
                   <div className="row item" key={item.id}>
                     <div className="twelve columns">
-                      <h3>{item.CompanyName}</h3>
+                      <h3>{item.companyName}</h3>
                       <p className="info">
                         {item.specialization}
                         <span>&bull;</span>{" "}
                         <em className="date">
-                          {item.MonthOfLeaving} {item.YearOfLeaving}
+                          {item.monthOfLeaving} {item.yearOfLeaving}
                         </em>
                       </p>
-                      <Achievements achievements={item.Achievements} />
+                      <achievements achievements={item.achievements} />
                     </div>
                   </div>
                 );
@@ -102,9 +102,9 @@ export default class Resume extends Component {
                     return (
                       <li key={item.id}>
                         <span
-                          className={`bar-expand ${item.skillname.toLowerCase()} percent-${item.percent}`}
+                          className={`bar-expand ${item.skillName.toLowerCase()} percent-${item.percent}`}
                         ></span>
-                        <em>{item.skillname}</em>
+                        <em>{item.skillName}</em>
                         <span className="skill-level">{item.level}</span>
                       </li>
                     );

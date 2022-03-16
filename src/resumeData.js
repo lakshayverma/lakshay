@@ -1,11 +1,11 @@
 let resumeData = {
-    "imagebaseurl": "https://lakshay.dev/",
+    "baseImageURL": "https://lakshay.dev/",
     "name": "Lakshay Verma",
     "role": "Web System Specialist",
     "linkedinId": "https://www.linkedin.com/in/lakshayverma/",
-    "skypeid": "lk7253",
+    "skypeId": "lk7253",
     "roleDescription": "Enabling the users with the power to compute with minimal efforts and achieve their end goals.",
-    "endnote": "Tests whether in real life or programming, doesn't make us slow or weak. Instead they make path for us to become stronger and better than ever.",
+    "endNote": "Tests whether in real life or programming, doesn't make us slow or weak. Instead they make path for us to become stronger and better than ever.",
     "socialLinks": [
         {
             "id": 1,
@@ -38,28 +38,28 @@ let resumeData = {
             "className": "fa fa-edit"
         }
     ],
-    "aboutme": "Working with Technology since 2010, I have achieved keen insights about how one system be it web, mobile or real-world should interact with another. Also my expertise is in ensuring that the goals are not just met but raised to even higher standards.",
+    "aboutMe": "Working with Technology since 2010, I have achieved keen insights about how one system be it web, mobile or real-world should interact with another. Also my expertise is in ensuring that the goals are not just met but raised to even higher standards.",
     "address": "PB, IN",
     "website": "https://lakshay.dev",
     "education": [
         {
             "id": 4,
-            "UniversityName": "I.G.N.O.U.",
+            "universityName": "I.G.N.O.U.",
             "specialization": "Masters in Computer Application",
-            "MonthOfPassing": "Dec",
-            "YearOfPassing": "'17",
-            "Achievements": [
+            "monthOfPassing": "Dec",
+            "yearOfPassing": "'17",
+            "achievements": [
                 "Optimal system design with Web Technologies",
                 "Interactive Games development with Unity 3d"
             ]
         },
         {
             "id": 3,
-            "UniversityName": "G.N.D.U.",
+            "universityName": "G.N.D.U.",
             "specialization": "Bachelors in Computer Application",
-            "MonthOfPassing": "Jul",
-            "YearOfPassing": "'14",
-            "Achievements": [
+            "monthOfPassing": "Jul",
+            "yearOfPassing": "'14",
+            "achievements": [
                 "Application Development with Java EE at its core",
                 "UI design and development using Web Technologies HTML, CSS, jQuery",
                 "UX design and development"
@@ -69,11 +69,11 @@ let resumeData = {
     "work": [
         {
             "id": 4,
-            "CompanyName": "Walkwel Technology Pvt. Ltd.",
+            "companyName": "Walkwel Technology Pvt. Ltd.",
             "specialization": "Web Development and Databases",
-            "MonthOfLeaving": "-",
-            "YearOfLeaving": "Present",
-            "Achievements": [
+            "monthOfLeaving": "-",
+            "yearOfLeaving": "Present",
+            "achievements": [
                 "Server side Web applications using Laravel framework and PHP",
                 "Frontend UI design using Angular, React and Laravel Blade",
                 "System design and application deployment using AWS, Digital Ocean, GitHub Actions, Gitlab Pipelines and Docker",
@@ -82,11 +82,11 @@ let resumeData = {
         },
         {
             "id": 3,
-            "CompanyName": "Club JB",
+            "companyName": "Club JB",
             "specialization": "Web Development",
-            "MonthOfLeaving": "Sept",
-            "YearOfLeaving": "2017",
-            "Achievements": [
+            "monthOfLeaving": "Sept",
+            "yearOfLeaving": "2017",
+            "achievements": [
                 "API development (REST) using Laravel and Lumen",
                 "User Journey design for the product",
                 "System Analysis"
@@ -94,11 +94,11 @@ let resumeData = {
         },
         {
             "id": 2,
-            "CompanyName": "Walnut Studios",
+            "companyName": "Walnut Studios",
             "specialization": "Application and Game Development",
-            "MonthOfLeaving": "May",
-            "YearOfLeaving": "2017",
-            "Achievements": [
+            "monthOfLeaving": "May",
+            "yearOfLeaving": "2017",
+            "achievements": [
                 "Mobile application design and development",
                 "User engagement creation with Unity 3d",
                 "API design with PHP"
@@ -106,11 +106,11 @@ let resumeData = {
         },
         {
             "id": 1,
-            "CompanyName": "Advait SparX",
+            "companyName": "Advait SparX",
             "specialization": "Application and Game Development",
-            "MonthOfLeaving": "April",
-            "YearOfLeaving": "2016",
-            "Achievements": [
+            "monthOfLeaving": "April",
+            "yearOfLeaving": "2016",
+            "achievements": [
                 "Desktop application development with Windows Toolkit",
                 "User Interface Design to improvise experiences",
                 "Application and System architecture design along with programming interfaces"
@@ -121,85 +121,85 @@ let resumeData = {
     "skills": [
         {
             "id": 1,
-            "skillname": "Laravel",
+            "skillName": "Laravel",
             "percent": "80",
             "level": "advanced"
         },
         {
             "id": 2,
-            "skillname": "Wordpress",
+            "skillName": "Wordpress",
             "percent": "70",
             "level": "advanced"
         },
         {
             "id": 3,
-            "skillname": "HTML + CSS",
+            "skillName": "HTML + CSS",
             "percent": "90",
             "level": "high"
         },
         {
             "id": 5,
-            "skillname": "JavaScript",
+            "skillName": "JavaScript",
             "percent": "80",
             "level": "advanced"
         },
         {
             "id": 6,
-            "skillname": "React",
+            "skillName": "React",
             "percent": "80",
             "level": "high"
         },
         {
             "id": 7,
-            "skillname": "Angular",
+            "skillName": "Angular",
             "percent": "60",
             "level": "intermediate"
         },
         {
             "id": 8,
-            "skillname": "Jest and RTL",
+            "skillName": "Jest and RTL",
             "percent": "70",
             "level": "intermediate"
         },
         {
             "id": 9,
-            "skillname": "Java",
+            "skillName": "Java",
             "percent": "60",
             "level": "moderate"
         },
         {
             "id": 10,
-            "skillname": "GIT",
+            "skillName": "GIT",
             "percent": "80",
             "level": "moderate"
         },
         {
             "id": 11,
-            "skillname": "Server Management",
+            "skillName": "Server Management",
             "percent": "60",
             "level": "moderate"
         },
         {
             "id": 9,
-            "skillname": "CI/CD",
+            "skillName": "CI/CD",
             "percent": "60",
             "level": "moderate"
         },
         {
             "id": 12,
-            "skillname": "Adobe Photoshop",
+            "skillName": "Adobe Photoshop",
             "percent": "55",
             "level": "moderate"
         },
         {
             "id": 13,
-            "skillname": "Android",
+            "skillName": "Android",
             "percent": "40",
             "level": "moderate"
         },
         {
             "id": 14,
-            "skillname": "Flutter",
+            "skillName": "Flutter",
             "percent": "30",
             "level": "beginner"
         }

@@ -7,7 +7,7 @@ export default class ContactUs extends Component {
           <div className="row section-head">
             <div className="ten columns">
               <p className="lead">
-                {resumeData.endnote}
+                {resumeData.endNote}
               </p>
             </div>
           </div>

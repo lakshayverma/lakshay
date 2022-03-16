@@ -12,7 +12,7 @@ export default class About extends Component {
             <h2>About Me</h2>
             <p>
               {
-                resumeData.aboutme
+                resumeData.aboutMe
               }
             </p>
           </div>
