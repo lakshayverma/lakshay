@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-const achievements = ({achievements: achievements}) => {
+const Achievements = ({achievements}) => {
   return (
     Array.isArray(achievements) ?
         (
@@ -49,7 +49,7 @@ export default class Resume extends Component {
                           {item.monthOfPassing} {item.yearOfPassing}
                         </em>
                       </p>
-                      <achievements achievements={item.achievements} />
+                      <Achievements achievements={item.achievements} />
                     </div>
                   </div>
                 );

@@ -199,8 +199,8 @@ let resumeData = {
         },
         {
             "id": 14,
-            "skillName": "Flutter",
-            "percent": "30",
+            "skillName": "Flutter Dart",
+            "percent": "40",
             "level": "beginner"
         }
     ],
