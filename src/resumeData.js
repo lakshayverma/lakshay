@@ -46,8 +46,18 @@ let resumeData = {
             "id": 4,
             "universityName": "I.G.N.O.U.",
             "specialization": "Masters in Computer Application",
-            "monthOfPassing": "Dec",
-            "yearOfPassing": "'17",
+            "dates": [
+                {
+                    "title": "Start",
+                    "month": "Jul",
+                    "year": "2014"
+                },
+                {
+                    "title": "End",
+                    "month": "Dec",
+                    "year": "2017"
+                },
+            ],
             "achievements": [
                 "Optimal system design with Web Technologies",
                 "Interactive Games development with Unity 3d"
@@ -57,8 +67,18 @@ let resumeData = {
             "id": 3,
             "universityName": "G.N.D.U.",
             "specialization": "Bachelors in Computer Application",
-            "monthOfPassing": "Jul",
-            "yearOfPassing": "'14",
+            "dates": [
+                {
+                    "title": "Start",
+                    "month": "Jul",
+                    "year": "2011"
+                },
+                {
+                    "title": "End",
+                    "month": "Jul",
+                    "year": "2014"
+                },
+            ],
             "achievements": [
                 "Application Development with Java EE at its core",
                 "UI design and development using Web Technologies HTML, CSS, jQuery",
@@ -71,8 +91,18 @@ let resumeData = {
             "id": 4,
             "companyName": "Walkwel Technology Pvt. Ltd.",
             "specialization": "Web Development and Databases",
-            "monthOfLeaving": "-",
-            "yearOfLeaving": "Present",
+            "dates": [
+                {
+                    "title": "Start",
+                    "month": "Sep",
+                    "year": "2017"
+                },
+                {
+                    "title": "",
+                    "month": "",
+                    "year": "Present"
+                },
+            ],
             "achievements": [
                 "Server side Web applications using Laravel framework and PHP",
                 "Frontend UI design using Angular, React and Laravel Blade",
@@ -84,8 +114,18 @@ let resumeData = {
             "id": 3,
             "companyName": "Club JB",
             "specialization": "Web Development",
-            "monthOfLeaving": "Sept",
-            "yearOfLeaving": "2017",
+            "dates": [
+                {
+                    "title": "Start",
+                    "month": "May",
+                    "year": "2017"
+                },
+                {
+                    "title": "End",
+                    "month": "Sep",
+                    "year": "2017"
+                },
+            ],
             "achievements": [
                 "API development (REST) using Laravel and Lumen",
                 "User Journey design for the product",
@@ -96,8 +136,18 @@ let resumeData = {
             "id": 2,
             "companyName": "Walnut Studios",
             "specialization": "Application and Game Development",
-            "monthOfLeaving": "May",
-            "yearOfLeaving": "2017",
+            "dates": [
+                {
+                    "title": "Start",
+                    "month": "Apr",
+                    "year": "2016"
+                },
+                {
+                    "title": "End",
+                    "month": "May",
+                    "year": "2017"
+                },
+            ],
             "achievements": [
                 "Mobile application design and development",
                 "User engagement creation with Unity 3d",
@@ -108,8 +158,18 @@ let resumeData = {
             "id": 1,
             "companyName": "Advait SparX",
             "specialization": "Application and Game Development",
-            "monthOfLeaving": "April",
-            "yearOfLeaving": "2016",
+            "dates": [
+                {
+                    "title": "Start",
+                    "month": "Jan",
+                    "year": "2013"
+                },
+                {
+                    "title": "End",
+                    "month": "Dec",
+                    "year": "2016"
+                },
+            ],
             "achievements": [
                 "Desktop application development with Windows Toolkit",
                 "User Interface Design to improvise experiences",
@@ -215,8 +275,9 @@ let resumeData = {
                 "Java",
                 "ReactJS",
                 "Jest",
+                "Enzyme",
+                "RTL",
                 "Jenkins",
-                "Enzyme and RTL",
                 "i18n",
                 "SCSS"
             ]
@@ -230,6 +291,7 @@ let resumeData = {
                 "Node",
                 "Mongo",
                 "Angluar",
+                "Shell",
                 "Ionic",
                 "GitLab CI",
                 "Jest",
@@ -244,7 +306,10 @@ let resumeData = {
             "stats": [
                 "PHP",
                 "Laravel",
+                "Babel",
                 "Node",
+                "Nginx",
+                "Apache",
                 "ReactJS",
                 "SCSS"
             ]
@@ -259,7 +324,7 @@ let resumeData = {
                 "Wordpress",
                 "NextJS",
                 "Github Actions",
-                "Amazon Web Services",
+                "AWS EC2",
                 "ReactJS",
                 "Analytics",
                 "SCSS"
@@ -273,6 +338,9 @@ let resumeData = {
             "stats": [
                 "PHP",
                 "Laravel",
+                "Wordpress",
+                "Shell",
+                "Apache",
                 "Route53",
                 "Webpack",
                 "SCSS"
@@ -284,7 +352,7 @@ let resumeData = {
             "description": "Mobile application based on a concept that amazes.",
             "imgurl": "https://blog.lakshay.dev/wp-content/uploads/2015/11/amaze-your-self-logo.png",
             "stats": [
-                "Adobe Photoshop",
+                "Photoshop",
                 "Android",
                 "Unity 3d",
                 "Java"
