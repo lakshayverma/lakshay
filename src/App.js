@@ -18,10 +18,10 @@ class App extends Component {
         <Header resumeData={resumeData}/>
         <About resumeData={resumeData} />
         <Resume resumeData={resumeData}/>
-        <Job items={resumeData.portfolio} description={resumeData.portfolioDescription} />
+        <Job items={resumeData.portfolio} description={resumeData.portfolioDescription}  statsTitle="Technology Used"/>
         <Testimonials resumeData={resumeData}/>
         <ContactUs resumeData={resumeData}/>
-        <Job id="interests" title="Interests" items={resumeData.interests} description={resumeData.interestsDescription} />
+        <Job id="interests" title="Interests" items={resumeData.interests} description={resumeData.interestsDescription}/>
         <Footer resumeData={resumeData}/>
       </div>
     );

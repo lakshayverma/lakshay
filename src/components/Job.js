@@ -1,7 +1,9 @@
 import React, { Component } from "react";
+import FocusItems from "./FocusItems";
+import Stats from "./Stats";
 export default class Job extends Component {
   render() {
-    const { id = "jobs", title= "Jobs", items = [], description = "" } = this.props;
+    const { id = "jobs", title= "Jobs", items = [], description = "", statsTitle = null } = this.props;
     return (
       <section id={id} className="jobs-container">
         <div className="row portfolio">
@@ -23,15 +25,8 @@ export default class Job extends Component {
                         <p className="info">
                           {item.description}
                         </p>
-                        <div className="stat-pills-container">
-                          {
-                            item.stats && item.stats.map((tech) => {
-                              return (
-                                <span key={`${id}-technology_${item.id}-${tech}`} className="stat-pill">{tech}</span>
-                              );
-                            })
-                          }
-                        </div>
+                        <Stats id={item.id} stats={item.stats} focusText={statsTitle}/>
+                        {item.achievements && <FocusItems items={item.achievements} focusText={"Responsibilities"}/>}
                       </div>
                     </div>
                   );

@@ -1,49 +1,11 @@
 import React, {Component} from "react";
-
-const Achievements = ({achievements}) => {
-    return (
-        <div className="achievements">
-            {
-                (
-                    Array.isArray(achievements) ?
-                        (
-                            <>
-                                <p className="mb-0">
-                                    <small className="text-focus">Area of Focus: </small>
-                                </p>
-                                {
-                                    achievements.map((achievement) => (
-                                        <p className="mb-0">{achievement}</p>
-                                    ))
-                                }
-                            </>
-                        )
-                        : (
-                            <p>
-                                <small className="text-focus">Area of Focus: </small>{achievements}
-                            </p>
-                        )
-                )
-            }
-        </div>
-    )
-}
-
-const Dates = ({dates}) => {
-    return (
-        dates.map(date => (
-            <em className="date">
-                <small>{date.title}</small> <span>{date.month} {date.year}</span>
-            </em>
-        ))
-    )
-}
+import FocusItems from "./FocusItems";
+import Dates from "./Dates";
 
 export default class Resume extends Component {
     render() {
         let resumeData = this.props.resumeData;
-        return (
-            <section id="resume">
+        return (<section id="resume">
                 <div className="row education">
                     <div className="three columns header-col">
                         <h1>
@@ -52,22 +14,19 @@ export default class Resume extends Component {
                     </div>
 
                     <div className="nine columns main-col">
-                        {resumeData.education &&
-                            resumeData.education.map(item => {
-                                return (
-                                    <div className="row item" key={item.id}>
-                                        <div className="twelve columns">
-                                            <h3>{item.universityName}</h3>
-                                            <p className="info">
-                                                {item.specialization}
-                                                <span>&bull;</span>{" "}
-                                                <Dates dates={item.dates}/>
-                                            </p>
-                                            <Achievements achievements={item.achievements}/>
-                                        </div>
+                        {resumeData.education && resumeData.education.map(item => {
+                            return (<div className="row item" key={item.id}>
+                                    <div className="twelve columns">
+                                        <h3>{item.universityName}</h3>
+                                        <p className="info">
+                                            {item.specialization}
+                                            <span>&bull;</span>{" "}
+                                            <Dates dates={item.dates}/>
+                                        </p>
+                                        <FocusItems items={item.achievements}/>
                                     </div>
-                                );
-                            })}
+                                </div>);
+                        })}
                     </div>
                 </div>
                 <div className="row work">
@@ -78,22 +37,19 @@ export default class Resume extends Component {
                     </div>
 
                     <div className="nine columns main-col">
-                        {resumeData.work &&
-                            resumeData.work.map(item => {
-                                return (
-                                    <div className="row item" key={item.id}>
-                                        <div className="twelve columns">
-                                            <h3>{item.companyName}</h3>
-                                            <p className="info">
-                                                {item.specialization}
-                                                <span>&bull;</span>
-                                                <Dates dates={item.dates}/>
-                                            </p>
-                                            <Achievements achievements={item.achievements}/>
-                                        </div>
+                        {resumeData.work && resumeData.work.map(item => {
+                            return (<div className="row item" key={item.id}>
+                                    <div className="twelve columns">
+                                        <h3>{item.companyName}</h3>
+                                        <p className="info">
+                                            {item.specialization}
+                                            <span>&bull;</span>
+                                            <Dates dates={item.dates}/>
+                                        </p>
+                                        <FocusItems items={item.achievements}/>
                                     </div>
-                                );
-                            })}
+                                </div>);
+                        })}
                     </div>
                 </div>
 
@@ -109,23 +65,19 @@ export default class Resume extends Component {
 
                         <div className="bars">
                             <ul className="skills">
-                                {resumeData.skills &&
-                                    resumeData.skills.map(item => {
-                                        return (
-                                            <li key={item.id}>
-                        <span
-                            className={`bar-expand ${item.skillName.toLowerCase()} percent-${item.percent}`}
-                        ></span>
-                                                <em>{item.skillName}</em>
-                                                <span className="skill-level">{item.level}</span>
-                                            </li>
-                                        );
-                                    })}
+                                {resumeData.skills && resumeData.skills.map(item => {
+                                    return (<li key={item.id}>
+                                                <span
+                                                    className={`bar-expand ${item.skillName.toLowerCase()} percent-${item.percent}`}
+                                                ></span>
+                                            <em>{item.skillName}</em>
+                                            <span className="skill-level">{item.level}</span>
+                                        </li>);
+                                })}
                             </ul>
                         </div>
                     </div>
                 </div>
-            </section>
-        );
+            </section>);
     }
 }

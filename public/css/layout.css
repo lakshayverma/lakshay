@@ -397,14 +397,24 @@ ul#nav li.current a {
     border-bottom: 1px solid #e8e8e8;
 }
 
-#resume .achievements {
+.achievements, .stats {
     background: #fffdf5;
     padding: 8px;
     border-bottom: 2px solid;
     margin-bottom: 1rem;
 }
 
-#resume .achievements small.text-focus {
+#jobs .achievements {
+    background: none;
+}
+
+#jobs .stats, #interests .stats {
+    background: none;
+    border-bottom: none;
+}
+
+
+small.text-focus {
     background: #ba3217;
     font-size: 1.2rem;
     border: 1px solid;
@@ -412,7 +422,7 @@ ul#nav li.current a {
     color: white;
 }
 
-#resume .info {
+.info {
     font: 16px/24px "librebaskerville-italic", serif;
     color: #6e7881;
     margin-bottom: 18px;

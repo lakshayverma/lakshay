@@ -280,6 +280,12 @@ let resumeData = {
                 "Jenkins",
                 "i18n",
                 "SCSS"
+            ],
+            "achievements": [
+                "Handling and providing mentorship to the team of about 15.",
+                "Reviewing code to detect early signs of security issues",
+                "Designing interfaces to improve user interactions",
+                "Providing support and guidelines for new features"
             ]
         },
         {
@@ -296,6 +302,12 @@ let resumeData = {
                 "GitLab CI",
                 "Jest",
                 "SCSS"
+            ],
+            "achievements": [
+                "Formulating User campaigns for maximum conversion rates",
+                "Designing APIs to interact with various CRMs",
+                "Ensuring that the page meets Search Engine guidelines",
+                "Enforcing Web Vitals are met"
             ]
         },
         {
@@ -312,6 +324,11 @@ let resumeData = {
                 "Apache",
                 "ReactJS",
                 "SCSS"
+            ],
+            "achievements": [
+                "Managing team of React and Laravel developers",
+                "Designing Servers with Dynamic Routing and Domains",
+                "Enforcing GDPR"
             ]
         },
         {
@@ -328,6 +345,12 @@ let resumeData = {
                 "ReactJS",
                 "Analytics",
                 "SCSS"
+            ],
+            "achievements": [
+                "Custom Content management system based on Wordpress to link with a NextJS application",
+                "Realtime licensing for purchased tracks",
+                "Dynamic playlists to match user needs",
+                "Custom routing to link between Server Side and Client Side renders"
             ]
         },
         {
@@ -344,6 +367,11 @@ let resumeData = {
                 "Route53",
                 "Webpack",
                 "SCSS"
+            ],
+            "achievements": [
+                "Optimal system design with Web Technologies",
+                "Designed database to introduce multiple courses",
+                "APIs to track and record quiz and exam data"
             ]
         },
         {
@@ -356,6 +384,10 @@ let resumeData = {
                 "Android",
                 "Unity 3d",
                 "Java"
+            ],
+            "achievements": [
+                "Interactive Games development with Unity 3d",
+                "Designed User Interface and various Graphical elements"
             ]
         },
         {
@@ -367,6 +399,11 @@ let resumeData = {
                 "Unity 3d",
                 "Blender",
                 "Photoshop"
+            ],
+            "achievements": [
+                "Provide support for creating 3d models",
+                "Designed 3d levels in form of puzzles",
+                "Interactive Games development with Unity 3d"
             ]
         },
         {
@@ -378,6 +415,10 @@ let resumeData = {
                 "C#",
                 "Photoshop",
                 "Java"
+            ],
+            "achievements": [
+                "Designed User interface",
+                "Ensured that the end users does not strain their eyes"
             ]
         },
         {
@@ -388,6 +429,9 @@ let resumeData = {
             "stats": [
                 "Photoshop",
                 "Unity 3d"
+            ],
+            "achievements": [
+                "Interactive Games development with Unity 3d"
             ]
         }
     ],
