@@ -33,9 +33,9 @@ let resumeData = {
         },
         {
             "id": 5,
-            "name": "blog",
-            "url": "https://vermalakshay.wordpress.com/",
-            "className": "fa fa-edit"
+            "name": "gaming",
+            "url": "https://www.youtube.com/@gameplays_by_lakshay",
+            "className": "fa fa-youtube"
         }
     ],
     "aboutMe": "Working with Technology since 2010, I have achieved keen insights about how one system be it web, mobile or real-world should interact with another. Also my expertise is in ensuring that the goals are not just met but raised to even higher standards.",
@@ -464,6 +464,23 @@ let resumeData = {
     ],
     "interestsDescription": "While not working on Jobs, I take my sweet time to enjoy the little pleasures of Life.",
     "interests": [
+        {
+            "id": 7,
+            "name": "Gaming",
+            "description": "Playing games on the loop and hunting the lore and treasures alike",
+            "stats": [
+                "Elden Ring",
+                "Cyberpunk 2077",
+                "Assassins Creed",
+                "Prince of Persia",
+                "Call of Duty",
+                "GTA V",
+                "Soul Reaver",
+                "RPGs",
+                "Action Adventure",
+                "MMOs"
+            ]
+        },
         {
             "id": 1,
             "name": "Music",
