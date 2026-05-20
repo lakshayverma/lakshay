@@ -33,7 +33,13 @@ let resumeData = {
         },
         {
             "id": 5,
-            "name": "gaming",
+            "name": "gaming-account",
+            "url": "https://instagram.com/gameplays_by_lakshay",
+            "className": "fa fa-gamepad"
+        },
+        {
+            "id": 6,
+            "name": "gaming-channel",
             "url": "https://www.youtube.com/@gameplays_by_lakshay",
             "className": "fa fa-youtube"
         }
@@ -469,16 +475,17 @@ let resumeData = {
             "name": "Gaming",
             "description": "Playing games on the loop and hunting the lore and treasures alike",
             "stats": [
+                "MMOs",
+                "RPGs",
+                "GTA V",
                 "Elden Ring",
+                "Call of Duty",
+                "Soul Reaver",
+                "Action Adventure",
                 "Cyberpunk 2077",
                 "Assassins Creed",
-                "Prince of Persia",
-                "Call of Duty",
-                "GTA V",
-                "Soul Reaver",
-                "RPGs",
-                "Action Adventure",
-                "MMOs"
+                "Ghost of Yotei",
+                "Prince of Persia"
             ]
         },
         {
