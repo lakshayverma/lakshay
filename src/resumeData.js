@@ -96,7 +96,7 @@ let resumeData = {
         {
             "id": 4,
             "companyName": "Walkwel Technology Pvt. Ltd.",
-            "specialization": "Web Development and Databases",
+            "specialization": "Web Development, DevOps, AI Ops",
             "dates": [
                 {
                     "title": "Start",
@@ -110,8 +110,11 @@ let resumeData = {
                 },
             ],
             "achievements": [
+                "Agentic AI Development",
+                "MCP Servers and LLM Training",
+                "DevOps and CI/CD Pipelines",
                 "Server side Web applications using Laravel framework and PHP",
-                "Frontend UI design using Angular, React and Laravel Blade",
+                "Frontend UI design using React, Angular, VueJS and Laravel Blade",
                 "System design and application deployment using AWS, Digital Ocean, GitHub Actions, Gitlab Pipelines and Docker",
                 "User engagement campaigns and trigger analysis using Click Funnels and Infusionsoft"
             ]
@@ -186,6 +189,24 @@ let resumeData = {
     "skillsDescription": "Major Skills",
     "skills": [
         {
+            "id": 15,
+            "skillName": "AI Development",
+            "percent": "60",
+            "level": "high"
+        },
+        {
+            "id": 16,
+            "skillName": "IoT - Device Communications",
+            "percent": "40",
+            "level": "moderate"
+        },
+        {
+            "id": 17,
+            "skillName": "Kubernetes",
+            "percent": "60",
+            "level": "high"
+        },
+        {
             "id": 1,
             "skillName": "Laravel",
             "percent": "80",
@@ -213,7 +234,7 @@ let resumeData = {
             "id": 6,
             "skillName": "React",
             "percent": "80",
-            "level": "high"
+            "level": "advanced"
         },
         {
             "id": 7,
@@ -272,6 +293,70 @@ let resumeData = {
     ],
     "portfolioDescription": "These are some of the jobs building my Portfolio Strong.",
     "portfolio": [
+        {
+            "id": 12,
+            "name": "Online Medication Management System",
+            "description": "A complete solution to manage the medication of patients with a dashboard to monitor the medication and other details of the patient.",
+            "imgurl": "../images.lms.png",
+            "stats": [
+                "JavaScript",
+                "React Typescript",
+                "Redux Toolkit Query",
+                "AntD",
+                "Uptime Monitoring",
+                "Jenkins",
+                "AWS EKS",
+                "Kubernetes",
+                "Docker",
+            ],
+            "achievements": [
+                "Handling and providing mentorship to the team of about 15.",
+                "Reviewing code to detect early signs of security issues",
+                "Designing interfaces to improve user interactions",
+                "Providing support and guidelines for new features"
+            ]
+        },
+        {
+            "id": 11,
+            "name": "Realtime Vehicle Tracking System",
+            "description": "A complete solution to track the vehicle in real time with a dashboard to monitor the location and other details of the vehicle.",
+            "imgurl": "../images.lms.png",
+            "stats": [
+                "JavaScript",
+                "React Typescript",
+                "RTK Query",
+                "AntD",
+                "Github Actions",
+                "AWS EC2",
+                "i18n",
+                "Losant IoT"
+            ],
+            "achievements": [
+                "Handling and providing mentorship to the team of about 15.",
+                "Reviewing code to detect early signs of security issues",
+                "Designing interfaces to improve user interactions",
+                "Providing support and guidelines for new features"
+            ]
+        },
+        {
+            "id": 10,
+            "name": "Customer Relationship Management (CRM)",
+            "description": "High performing lead management solution with option to channel leads using AI to relevant business partners while maintianing the security and performance of generated leads",
+            "imgurl": "../images.lms.png",
+            "stats": [
+                "ReactJS",
+                "RTK",
+                "TypeScript",
+                "Github Actions",
+                "MUI",
+                "Web Sockets"
+            ],
+            "achievements": [
+                "Created high functioning queues management system",
+                "Provided option to connect business with potential leads via Chat, VoIP, Messages and more",
+                "Enabled lead converstion monitoring system for stakeholders"
+            ]
+        },
         {
             "id": 9,
             "name": "Transport Management System",
@@ -468,7 +553,7 @@ let resumeData = {
             "description": "The site speaks to me with such a soothing color and font selection. You did a great job, I am so humbled."
         }
     ],
-    "interestsDescription": "While not working on Jobs, I take my sweet time to enjoy the little pleasures of Life.",
+    "interestsDescription": "While not working on Jobs, I take my sweet time to enjoy the little pleasures of Life, while gaming and having fun.",
     "interests": [
         {
             "id": 7,
@@ -481,11 +566,11 @@ let resumeData = {
                 "Elden Ring",
                 "Call of Duty",
                 "Soul Reaver",
+                "Ghost of Yotei",
+                "Prince of Persia",
                 "Action Adventure",
                 "Cyberpunk 2077",
-                "Assassins Creed",
-                "Ghost of Yotei",
-                "Prince of Persia"
+                "Assassins Creed"
             ]
         },
         {
